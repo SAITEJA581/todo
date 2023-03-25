@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+    <form>
+      <input type="text" id="new-task" placeholder="Add new task..." autocomplete="off">
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todo-list">
+      <li>
+        <input type="checkbox">
+        <span>HTML</span>
+        <button class="delete">X</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>CSS</span>
+        <button class="delete">X</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>BOOTSTRAP</span>
+        <button class="delete">X</button>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>JAVASCRIPT</span>
+        <button class="delete">X</button>
+      </li>
+    </ul>
+    <button id="save">SAVE</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
